@@ -159,19 +159,39 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contacto" className="bg-white border-t border-rose-100">
-          <div className="max-w-7xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-8">
-            <div className="rounded-3xl bg-rose-50 border border-rose-100 p-8 shadow-sm">
-              <h2 className="text-3xl font-bold mb-4">Contacto</h2>
-              <p className="text-slate-600 leading-7 mb-6">
-                Sustituye esta información por los datos reales de tu boutique.
-              </p>
-              <div className="space-y-3 text-slate-700">
-                <p><strong>Instagram:</strong> @casavaeboutique</p>
-                <p><strong>WhatsApp:</strong> +506 8589-3428</p>
-                <p><strong>Correo:</strong> contacto@casavaeboutique.com</p>
-              </div>
-            </div>
+<section className="bg-pink-50 border border-pink-100 rounded-3xl p-10 shadow-sm">
+  <h2 className="text-5xl font-bold text-slate-900 mb-4">
+    Contacto
+  </h2>
+
+  <p className="text-2xl text-pink-600 italic mb-6">
+    Elegancia que inspira, belleza con propósito ✨
+  </p>
+
+  <p className="text-xl text-slate-600 leading-9 mb-8">
+    Estamos para ayudarte a encontrar el outfit perfecto para cada ocasión.
+    Escríbenos para consultas sobre tallas, disponibilidad, pedidos,
+    envíos o asesoría personalizada.
+  </p>
+
+  <div className="space-y-4 text-xl text-slate-700">
+    <p>
+      <span className="font-semibold">Instagram:</span> @casavaeboutique
+    </p>
+    <p>
+      <span className="font-semibold">WhatsApp:</span> +506 8589-3428
+    </p>
+    <p>
+      <span className="font-semibold">Correo:</span> contacto@casavaeboutique.com
+    </p>
+    <p>
+      <span className="font-semibold">Horario:</span> Lunes a sábado, 9:00 a.m. – 6:00 p.m.
+    </p>
+    <p>
+      <span className="font-semibold">Envíos:</span> A todo Costa Rica 🚚💕
+    </p>
+  </div>
+</section>
 
             <form className="rounded-3xl bg-white border border-rose-100 p-8 shadow-sm space-y-4">
               <div>
