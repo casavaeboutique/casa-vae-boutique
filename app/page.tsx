@@ -198,12 +198,6 @@ export default function Home() {
                 </p>
 
                 <p>
-                  Nuestra misión es ofrecer prendas y accesorios que acompañen a
-                  las mujeres en su día a día, ayudándolas a expresar su esencia
-                  con elegancia, sencillez y autenticidad.
-                </p>
-
-                <p>
                   Más que moda, Casa VAE Boutique busca inspirar: inspirar
                   confianza, inspirar belleza y recordar a cada mujer que su luz
                   y su valor siempre pueden brillar.
