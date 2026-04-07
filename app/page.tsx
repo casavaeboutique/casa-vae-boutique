@@ -168,7 +168,7 @@ export default function Home() {
               </p>
               <div className="space-y-3 text-slate-700">
                 <p><strong>Instagram:</strong> @casavaeboutique</p>
-                <p><strong>WhatsApp:</strong> +506 0000-0000</p>
+                <p><strong>WhatsApp:</strong> +506 8589-3428</p>
                 <p><strong>Correo:</strong> contacto@casavaeboutique.com</p>
               </div>
             </div>
