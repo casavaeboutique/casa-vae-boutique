@@ -47,7 +47,7 @@ export default function Home() {
               Productos
             </a>
             <a href="#nosotras" className="hover:text-rose-500">
-              Nosotras
+              Nuestra Historia
             </a>
             <a href="#contacto" className="hover:text-rose-500">
               Contacto
@@ -74,7 +74,7 @@ export default function Home() {
             <p className="mb-8 text-base leading-8 text-slate-600 md:text-lg">
               Tienda online especializada en productos femeninos. Encuentra
               prendas, accesorios y opciones modernas pensadas para resaltar tu
-              estilo con elegancia y autenticidad.
+              estilo con elegancia, autenticidad y propósito.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -98,24 +98,24 @@ export default function Home() {
             <div className="rounded-3xl border border-rose-100 bg-white p-6 shadow-md">
               <h3 className="mb-2 text-lg font-bold">Moda femenina</h3>
               <p className="text-sm text-slate-600">
-                Colecciones seleccionadas para mujeres que buscan estilo y
-                comodidad.
+                Colecciones seleccionadas para mujeres que buscan estilo,
+                feminidad y comodidad.
               </p>
             </div>
 
             <div className="rounded-3xl border border-rose-100 bg-white p-6 shadow-md">
               <h3 className="mb-2 text-lg font-bold">Compras online</h3>
               <p className="text-sm text-slate-600">
-                Una experiencia simple y clara para que tus clientas compren
-                fácilmente.
+                Una experiencia simple y especial para que cada clienta compre
+                con facilidad.
               </p>
             </div>
 
             <div className="col-span-2 rounded-3xl border border-rose-100 bg-white p-6 shadow-md">
-              <h3 className="mb-2 text-lg font-bold">Boutique con estilo</h3>
+              <h3 className="mb-2 text-lg font-bold">Boutique con propósito</h3>
               <p className="text-sm text-slate-600">
-                Base ideal para luego agregar carrito, catálogo completo,
-                métodos de pago, Instagram, WhatsApp y formulario de pedidos.
+                Más que moda, una marca pensada para inspirar confianza,
+                elegancia y belleza con propósito.
               </p>
             </div>
           </div>
@@ -166,47 +166,80 @@ export default function Home() {
           </div>
         </section>
 
-        <section
-          id="nosotras"
-          className="mx-auto grid max-w-7xl gap-10 px-6 py-20 md:grid-cols-2 md:items-center"
-        >
-          <div>
-            <p className="mb-2 text-sm font-semibold text-rose-500">
-              Sobre la boutique
-            </p>
-            <h2 className="mb-5 text-3xl font-bold md:text-4xl">
-              Una marca pensada para resaltar la esencia femenina
-            </h2>
-            <p className="mb-4 leading-8 text-slate-600">
-              Casa VAE Boutique nace como un espacio de moda online para ofrecer
-              productos femeninos con estilo, delicadeza y personalidad.
-            </p>
-            <p className="leading-8 text-slate-600">
-              Aquí puedes incluir la historia de la marca, tu visión, los
-              valores de la boutique y aquello que hace diferente tu tienda
-              frente a otras opciones del mercado.
-            </p>
-          </div>
+        <section id="nosotras" className="mx-auto max-w-7xl px-6 py-20">
+          <div className="grid gap-10 md:grid-cols-2">
+            <div className="rounded-3xl border border-rose-100 bg-white p-8 shadow-sm">
+              <h2 className="mb-6 text-3xl font-bold md:text-5xl">
+                Nuestra Historia
+              </h2>
 
-          <div className="rounded-3xl bg-rose-500 p-8 text-white shadow-lg">
-            <h3 className="mb-4 text-2xl font-bold">
-              Lo que puedes agregar después
-            </h3>
-            <ul className="list-disc space-y-3 pl-5 text-rose-50">
-              <li>Carrito de compras</li>
-              <li>Pasarela de pago</li>
-              <li>Galería con fotos reales</li>
-              <li>Sección de ofertas</li>
-              <li>Opiniones de clientas</li>
-              <li>Botón directo a WhatsApp</li>
-            </ul>
+              <div className="space-y-6 text-lg leading-9 text-slate-600">
+                <p>
+                  Casa VAE Boutique nació del deseo de crear más que una tienda:
+                  un espacio que inspire a cada mujer a reconocer su valor, su
+                  belleza y la gracia que Dios ha puesto en ella.
+                </p>
+
+                <p>
+                  El nombre <span className="font-semibold text-rose-500">VAE</span>{" "}
+                  representa tres pilares que guían nuestra esencia:{" "}
+                  <span className="font-semibold">Virtud, Amor y Elegancia</span>.
+                  Creemos que la verdadera elegancia no comienza con una prenda,
+                  sino con el corazón de una mujer que conoce su valor y camina
+                  con confianza y propósito.
+                </p>
+
+                <p>
+                  Casa VAE fue pensada como un hogar, un lugar donde cada pieza,
+                  cada accesorio y cada detalle reflejen feminidad, delicadeza y
+                  estilo, recordando que la belleza más profunda nace del
+                  interior.
+                </p>
+
+                <p>
+                  Nuestra misión es ofrecer prendas y accesorios que acompañen a
+                  las mujeres en su día a día, ayudándolas a expresar su esencia
+                  con elegancia, sencillez y autenticidad.
+                </p>
+
+                <p>
+                  Más que moda, Casa VAE Boutique busca inspirar: inspirar
+                  confianza, inspirar belleza y recordar a cada mujer que su luz
+                  y su valor siempre pueden brillar.
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-8">
+              <div className="rounded-3xl bg-rose-500 p-8 text-white shadow-lg">
+                <h3 className="mb-4 text-2xl font-bold">✨ Misión</h3>
+                <p className="text-lg leading-8 text-rose-50">
+                  Inspirar a las mujeres a expresar su esencia, confianza y
+                  elegancia a través de prendas y accesorios cuidadosamente
+                  seleccionados, recordando que la verdadera belleza nace de un
+                  corazón lleno de gracia, valor y propósito.
+                </p>
+              </div>
+
+              <div className="rounded-3xl border border-rose-100 bg-white p-8 shadow-sm">
+                <h3 className="mb-4 text-2xl font-bold text-slate-900">
+                  🌿 Visión
+                </h3>
+                <p className="text-lg leading-8 text-slate-600">
+                  Ser una boutique que inspire a mujeres a caminar con
+                  elegancia, confianza y propósito, convirtiéndonos en una marca
+                  que refleje belleza interior, estilo auténtico y una esencia
+                  que honre la feminidad creada por Dios.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
         <section id="contacto" className="border-t border-rose-100 bg-white">
           <div className="mx-auto grid max-w-7xl gap-8 px-6 py-20 md:grid-cols-2">
             <div className="rounded-3xl border border-pink-100 bg-pink-50 p-8 shadow-sm">
-              <h2 className="mb-4 text-4xl font-bold text-slate-900 md:text-5xl">
+              <h2 className="mb-4 text-3xl font-bold text-slate-900 md:text-4xl">
                 Contacto
               </h2>
 
