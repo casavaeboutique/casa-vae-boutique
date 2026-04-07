@@ -181,7 +181,8 @@ export default function Home() {
                 </p>
 
                 <p>
-                  El nombre <span className="font-semibold text-rose-500">VAE</span>{" "}
+                  El nombre{" "}
+                  <span className="font-semibold text-rose-500">VAE</span>{" "}
                   representa tres pilares que guían nuestra esencia:{" "}
                   <span className="font-semibold">Virtud, Amor y Elegancia</span>.
                   Creemos que la verdadera elegancia no comienza con una prenda,
@@ -232,6 +233,20 @@ export default function Home() {
                   que honre la feminidad creada por Dios.
                 </p>
               </div>
+
+              <div className="rounded-3xl border border-rose-100 bg-rose-50 p-8 shadow-sm">
+                <h3 className="mb-4 text-2xl font-bold text-slate-900">
+                  Lo que puedes agregar después
+                </h3>
+                <ul className="list-disc space-y-3 pl-5 text-lg text-slate-600">
+                  <li>Carrito de compras</li>
+                  <li>Pasarela de pago</li>
+                  <li>Galería con fotos reales</li>
+                  <li>Sección de ofertas</li>
+                  <li>Opiniones de clientas</li>
+                  <li>Botón directo a WhatsApp</li>
+                </ul>
+              </div>
             </div>
           </div>
         </section>
@@ -239,37 +254,60 @@ export default function Home() {
         <section id="contacto" className="border-t border-rose-100 bg-white">
           <div className="mx-auto grid max-w-7xl gap-8 px-6 py-20 md:grid-cols-2">
             <div className="rounded-3xl border border-pink-100 bg-pink-50 p-8 shadow-sm">
-              <h2 className="mb-4 text-3xl font-bold text-slate-900 md:text-4xl">
+              <h2 className="mb-4 text-2xl font-bold text-slate-900 md:text-3xl">
                 Contacto
               </h2>
 
-              <p className="mb-6 text-xl italic text-pink-600 md:text-2xl">
+              <p className="mb-6 text-lg italic text-pink-600 md:text-xl">
                 Elegancia que inspira, belleza con propósito ✨
               </p>
 
-              <p className="mb-8 text-lg leading-9 text-slate-600 md:text-xl">
+              <p className="mb-8 text-base leading-8 text-slate-600 md:text-lg">
                 Estamos para ayudarte a encontrar el outfit perfecto para cada
                 ocasión. Escríbenos para consultas sobre tallas,
                 disponibilidad, pedidos, envíos o asesoría personalizada.
               </p>
 
-              <div className="space-y-4 text-lg text-slate-700 md:text-xl">
+              <div className="space-y-4 text-base text-slate-700 md:text-lg">
                 <p>
                   <span className="font-semibold">Instagram:</span>{" "}
-                  @casavaeboutique
+                  <a
+                    href="https://www.instagram.com/casavaeboutique"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-rose-500 hover:underline"
+                  >
+                    @casavaeboutique
+                  </a>
                 </p>
+
                 <p>
-                  <span className="font-semibold">WhatsApp:</span> +506
-                  8589-3428
+                  <span className="font-semibold">WhatsApp:</span>{" "}
+                  <a
+                    href="https://wa.me/50685893428"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-rose-500 hover:underline"
+                  >
+                    +506 8589-3428
+                  </a>
                 </p>
+
                 <p>
                   <span className="font-semibold">Correo:</span>{" "}
-                  contacto@casavaeboutique.com
+                  <a
+                    href="mailto:contacto@casavaeboutique.com"
+                    className="text-rose-500 hover:underline"
+                  >
+                    contacto@casavaeboutique.com
+                  </a>
                 </p>
+
                 <p>
                   <span className="font-semibold">Horario:</span> Lunes a
                   sábado, 9:00 a.m. – 6:00 p.m.
                 </p>
+
                 <p>
                   <span className="font-semibold">Envíos:</span> A todo Costa
                   Rica 🚚💕
