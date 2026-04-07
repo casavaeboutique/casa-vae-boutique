@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "Casa VAE Boutique",
     images: [
       {
-        url: "https://casa-vae-boutique.vercel.app/logo-casa-vae-boutique.png",
+        url: "/logo-casa-vae-boutique.png",
         width: 1024,
         height: 1024,
         alt: "Casa VAE Boutique",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Casa VAE Boutique",
     description: "Vestida de gracia y estilo",
-    images: ["https://casa-vae-boutique.vercel.app/logo-casa-vae-boutique.png"],
+    images: ["/logo-casa-vae-boutique.png"],
   },
 };
 
