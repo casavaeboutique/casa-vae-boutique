@@ -299,7 +299,7 @@ export default function Home() {
                     href="mailto:casavaeboutique@gmail.com"
                     className="text-rose-500 hover:underline"
                   >
-                    contacto@casavaeboutique.com
+                    casavaeboutique@gmail.com
                   </a>
                 </p>
 
