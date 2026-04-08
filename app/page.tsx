@@ -198,6 +198,12 @@ export default function Home() {
                 </p>
 
                 <p>
+                  Nuestra misión es ofrecer prendas y accesorios que acompañen a
+                  las mujeres en su día a día, ayudándolas a expresar su esencia
+                  con elegancia, sencillez y autenticidad.
+                </p>
+
+                <p>
                   Más que moda, Casa VAE Boutique busca inspirar: inspirar
                   confianza, inspirar belleza y recordar a cada mujer que su luz
                   y su valor siempre pueden brillar.
@@ -309,44 +315,54 @@ export default function Home() {
               </div>
             </div>
 
-            <form className="space-y-4 rounded-3xl border border-rose-100 bg-white p-8 shadow-sm">
-              <div>
-                <label className="mb-2 block text-sm font-medium">
-                  Nombre
-                </label>
-                <input
-                  className="w-full rounded-2xl border px-4 py-3"
-                  placeholder="Tu nombre"
-                />
-              </div>
+            <div className="rounded-3xl border border-rose-100 bg-white/80 p-8 shadow-sm">
+              <h3 className="mb-6 text-2xl font-semibold text-slate-900">
+                Escríbenos por WhatsApp
+              </h3>
 
-              <div>
-                <label className="mb-2 block text-sm font-medium">
-                  Correo
-                </label>
-                <input
-                  className="w-full rounded-2xl border px-4 py-3"
-                  placeholder="tucorreo@ejemplo.com"
-                />
-              </div>
+              <div className="space-y-6">
+                <div>
+                  <label className="mb-2 block text-sm font-medium">
+                    Nombre
+                  </label>
+                  <input
+                    type="text"
+                    placeholder="Tu nombre"
+                    className="w-full rounded-2xl border px-4 py-3"
+                  />
+                </div>
 
-              <div>
-                <label className="mb-2 block text-sm font-medium">
-                  Mensaje
-                </label>
-                <textarea
-                  className="w-full min-h-[130px] rounded-2xl border px-4 py-3"
-                  placeholder="Escribe tu consulta"
-                />
-              </div>
+                <div>
+                  <label className="mb-2 block text-sm font-medium">
+                    Correo
+                  </label>
+                  <input
+                    type="email"
+                    placeholder="tucorreo@ejemplo.com"
+                    className="w-full rounded-2xl border px-4 py-3"
+                  />
+                </div>
 
-              <button
-                type="button"
-                className="rounded-2xl bg-rose-500 px-6 py-3 font-semibold text-white shadow hover:opacity-90"
-              >
-                Enviar mensaje
-              </button>
-            </form>
+                <div>
+                  <label className="mb-2 block text-sm font-medium">
+                    Mensaje
+                  </label>
+                  <textarea
+                    placeholder="Escribe tu consulta"
+                    className="w-full min-h-[150px] rounded-2xl border px-4 py-3"
+                  />
+                </div>
+
+                <a
+                  href="https://wa.me/50685893428?text=Hola%20Casa%20VAE%20Boutique,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20productos."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-2xl bg-rose-500 px-6 py-3 font-semibold text-white shadow-md transition hover:bg-rose-600"
+                >
+                  Enviar mensaje
+                </a>
+              </div>
+            </div>
           </div>
         </section>
       </main>
