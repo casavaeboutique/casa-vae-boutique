@@ -296,7 +296,7 @@ export default function Home() {
                 <p>
                   <span className="font-semibold">Correo:</span>{" "}
                   <a
-                    href="mailto:contacto@casavaeboutique.com"
+                    href="mailto:casavaeboutique@gmail.com"
                     className="text-rose-500 hover:underline"
                   >
                     contacto@casavaeboutique.com
